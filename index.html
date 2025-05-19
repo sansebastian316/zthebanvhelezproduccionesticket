@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZTHEBAN VHELEZ PRODUCCIONES</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section.hero {
+      background: url('https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    section.hero h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    section.hero p {
+      font-size: 1.5rem;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+    }
+    section.entradas {
+      padding: 4rem 2rem;
+      background: #111;
+      text-align: center;
+    }
+    .evento {
+      margin: 2rem 0;
+      background: #222;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .evento img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .evento h3 {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+    .evento button {
+      margin-top: 1rem;
+      background: #e91e63;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZTHEBAN VHELEZ PRODUCCIONES</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#entradas">Entradas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>¡Vive los mejores conciertos en vivo!</h2>
+    <p>Compra tus boletas con ZTHEBAN VHELEZ PRODUCCIONES</p>
+  </section>
+
+  <section id="entradas" class="entradas">
+    <h2>Próximos Eventos</h2>
+
+    <div class="evento">
+      <img src="https://images.unsplash.com/photo-1518972559570-1ecb7cba87b7?auto=format&fit=crop&w=1600&q=80" alt="Concierto Rock" />
+      <h3>Rock Fest 2025</h3>
+      <p>28 de junio - Estadio Nacional</p>
+      <button>Comprar Boleta</button>
+    </div>
+
+    <div class="evento">
+      <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?auto=format&fit=crop&w=1600&q=80" alt="Festival Electrónico" />
+      <h3>Electro Beats</h3>
+      <p>12 de julio - Arena Techno</p>
+      <button>Comprar Boleta</button>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <p>Contacto: info@zthebanvhelez.com | Tel: +57 123 456 7890</p>
+    <p>&copy; 2025 ZTHEBAN VHELEZ PRODUCCIONES. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
